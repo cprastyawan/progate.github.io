@@ -13,23 +13,40 @@ a {
   margin: 0 auto;
 }
 
-.top-wrapper {
+.top-wrapper{
   padding: 180px 0 100px 0;
-  background-image: url(https://hips.hearstapps.com/del.h-cdn.co/assets/17/41/1507827432-beef-taco-boats-delish-1.jpg);
-  background-size: cover;
-  color: white;
+  color: #fff;
+  /*background: url(top-background.jpeg);*/
+  position: relative;
   text-align: center;
+  font-family: "Trebuchet MS";
+}
+
+.top-wrapper:before{
+  content:"";
+  position:absolute;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  z-index:-1;
+  opacity:0.7;
+  background-image: url("https://www.farmersalmanac.com/wp-content/uploads/2006/05/Spices-Seasoning-Seeds-i477756915.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .top-wrapper h1 {
-  opacity: 0.7;
+  opacity: 1;
   font-size: 45px;
   letter-spacing: 5px;
   margin-bottom: 10px;
 }
 
 .top-wrapper p {
-  opacity: 0.7;
+  opacity: 1;
   margin-bottom: 3px;
 }
 
@@ -42,7 +59,7 @@ a {
 }
 
 .signup {
-  background-color: #239b76;
+  background-color: #D76735;
 }
 
 .facebook {
@@ -111,14 +128,13 @@ header {
 .lesson-wrapper {
   height: 500px;
   padding-bottom: 80px;
-  background-color: #f7f7f7;
-  text-align: center;
+  background-color: #d76735
 }
 
 .heading {
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 30px;
-  color: #5f5d60;
+  color: #d76735;
 }
 
 .heading h2 {
@@ -128,25 +144,44 @@ header {
 .lesson {
   float: left;
   width: 25%;
+  background-color: #F2d8B3;
 }
 
 .lesson-icon {
   position: relative;
 }
 
+.lesson-icon img {
+  border-radius: 80%;
+  width: 200px;
+  height: 140px;
+  text-orientation: center;
+  margin: 20px;
+}
+
 .lesson-icon p {
   position: absolute;
-  top: 90px;
-  width: 100%;
-  color: white;
+  top: 150px;
+  left: 30px;
+  width: 70%;
+  color: #4f322e;
+  font-size: 17px;
+  font-family: "Trebuchet MS";
+  font-weight: bold;
+  text-align: center;
+  background-color: #fbd266
 }
 
 .txt-contents {
   width: 80%;
   display: inline-block;
-  margin-top: 20px;
-  font-size: 15px;
-  color: #b3aeb5;
+  margin-top: 50px;
+  font-size: 13px;
+  left: 30px;
+  color: #4f322e;
+  font-family: "Trebuchet MS";
+  text-align: center;
+  background-color: #e3e88c;
 }
 
 .heading h3 {
