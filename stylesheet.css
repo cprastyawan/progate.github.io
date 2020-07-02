@@ -192,13 +192,18 @@ header {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
+  background-color: #4F322E;
+  color: #F5D8b3;
+  font-family: "Trebuchet MS";
 }
 
 .message {
   padding: 15px 40px;
-  background-color: #5dca88;
+  background-color: #e3e88c;
   cursor: pointer;
-  box-shadow: 0 7px #1a7940;
+  box-shadow: 0 7px #426a45;
+  color: #426a45;
+  font-weight: bold;
 }
 
 .message:active {
