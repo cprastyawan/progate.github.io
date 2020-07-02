@@ -182,6 +182,7 @@ header {
   font-family: "Trebuchet MS";
   text-align: center;
   background-color: #e3e88c;
+  margin-left: 15px;
 }
 
 .heading h3 {
@@ -194,6 +195,16 @@ header {
   text-align: center;
   background-color: #4F322E;
   color: #F5D8b3;
+  font-family: "Trebuchet MS";
+}
+
+.click{
+  margin-left: 60px;
+  padding: 15px 40px;
+  background-color: #426a45;
+  cursor: pointer;
+  color: #e3e88c;
+  font-weight: bold;
   font-family: "Trebuchet MS";
 }
 
